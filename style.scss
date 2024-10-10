@@ -1,0 +1,50 @@
+$my-color: green;
+
+p {
+  color: $my-color;
+}
+
+h1 {
+  background: $my-color;
+}
+
+ul {
+  border: 2px solid $my-color;
+}
+
+body {
+  background: gray;
+  ul {
+    margin: 0;
+    list-style: none;
+    li {
+      color: blue;
+    }
+  }
+}
+
+@mixin theme($color) {
+  margin: 5px;
+  border: 3px solid yellow;
+  color: $color;
+}
+
+h1 {
+  @include theme($color: red)
+}
+
+h2 {
+  @include theme($color: blue)
+}
+
+h3 {
+  @include theme($color: green)
+}
+
+h4 {
+  @include theme($color: orange)
+}
+
+h5 {
+  @include theme($color: purple)
+}

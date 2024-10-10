@@ -1,0 +1,54 @@
+p {
+  color: green;
+}
+
+h1 {
+  background: green;
+}
+
+ul {
+  border: 2px solid green;
+}
+
+body {
+  background: gray;
+}
+body ul {
+  margin: 0;
+  list-style: none;
+}
+body ul li {
+  color: blue;
+}
+
+h1 {
+  margin: 5px;
+  border: 3px solid yellow;
+  color: red;
+}
+
+h2 {
+  margin: 5px;
+  border: 3px solid yellow;
+  color: blue;
+}
+
+h3 {
+  margin: 5px;
+  border: 3px solid yellow;
+  color: green;
+}
+
+h4 {
+  margin: 5px;
+  border: 3px solid yellow;
+  color: orange;
+}
+
+h5 {
+  margin: 5px;
+  border: 3px solid yellow;
+  color: purple;
+}
+
+/*# sourceMappingURL=happy.css.map */

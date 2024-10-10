@@ -1,0 +1,38 @@
+p {
+  color: hotpink;
+  margin: 20px;
+  font-size: 20px;
+}
+
+p::first-letter {
+  font-size:40px;
+  color: black;
+}
+
+p:hover {
+  background-color: green;
+  color: white;
+}
+
+div.special {
+  color: green;
+  background-color: red;
+}
+
+div.special > p {
+  color: orange;
+}
+
+div.special + p {
+  color: blue;
+}
+
+/* div.special section p {
+  color: blue;
+} */
+
+p.bigger {
+  font-size: 50px;
+}
+
+
